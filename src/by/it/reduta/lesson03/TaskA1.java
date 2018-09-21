@@ -34,12 +34,12 @@ Scanner sc=new Scanner(System.in);
  */
 
 
-import com.sun.java_cup.internal.runtime.Scanner;
+import java.util.Scanner;
 
 class TaskA1 {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
-                 int a = sc.nextInt(a);
+                 int a = sc.nextInt();
                  int b = sc.nextInt();
                  int sum = a + b;
                  int sub = a - b;

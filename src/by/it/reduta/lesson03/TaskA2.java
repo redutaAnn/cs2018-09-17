@@ -23,10 +23,11 @@ Lesson 03. Task A2. Стихотворение
 class TaskA2 {
     public static void main(String[] args) {
         String a="У Лукоморья дуб срубили";
-        string b="Кота на мясо зарубили";
-        string c="Русалку в бочку посадили";
-        string d="И написала:\"Огурцы\".";
-        System.out.println("");
+        String b="Кота на мясо зарубили";
+        String c="Русалку в бочку посадили";
+        String d="И написала:\"Огурцы\".";
+        System.out.println("Мое любимое стихатворение");
+        System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
     }
 
 }
