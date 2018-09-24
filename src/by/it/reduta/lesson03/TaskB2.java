@@ -30,5 +30,9 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
+    static double dis(int a, int b, int c) {
+        return (b * b + 4 * a * c);
+
+    }
 
 }
